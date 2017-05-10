@@ -55,10 +55,6 @@ namespace Service
                     #region Select con Where directo, omitiendo el SELECT *
                     //result = db.Fetch<Empleado>("WHERE Sexo = @0", 2);
                     #endregion
-
-                    #region Select con Where directo, omitiendo el SELECT *
-                    //result = db.Fetch<Empleado>("WHERE Sexo = @0", 2);
-                    #endregion
                 }
             }
             catch (Exception e)
